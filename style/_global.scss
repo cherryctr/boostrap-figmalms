@@ -50,6 +50,7 @@
     .heading-home {
         font-size: 46px;
         // margin-top: -139px;
+        margin-top: 77px;
         font-weight: map-get($font-weights, bold);
         color: $black;
         
@@ -162,13 +163,13 @@
         }
 
         .bg-img {
-            background: linear-gradient(180deg, rgba(0,0,0,0) 52.27% , #000000 100%);
+            // background: linear-gradient(180deg, rgba(0,0,0,0) 52.27% , #000000 100%);
             position: absolute;
             top: 0;
             left: 0;
             height: 238px !important;
             border-radius: 10px;
-            width: 400px !important;
+            width: 100% !important;
 
 
 
@@ -205,4 +206,52 @@
     }
 
 
+}
+
+
+// About CSS
+
+.about {
+    .image-banner-about {
+        width: 560px !important;
+        /* height: 300px; */
+        padding: 113px 26px 43px 126px !important;
+    
+    }
+}
+
+// TESTIMONI CSS
+.testimonial {
+    background: #dbedff !important;
+    height: 496px; 
+    .card {
+        border: none;
+        background-color: $sec-blue;
+        color: $primary-back;
+
+
+        .rate {
+            i {
+                color: #EBEF17 !important;
+            }
+        }
+    }
+
+
+
+
+
+    .testi-image {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+// CTA 
+.cta {
+    .image-banner-cta {
+        width: 560px !important;
+        /* height: 300px; */
+        padding: 0 26px 43px 126px !important
+    }
 }

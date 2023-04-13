@@ -210,6 +210,7 @@
 }
 .home .heading-home {
   font-size: 46px;
+  margin-top: 77px;
   font-weight: 700;
   color: #000000;
 }
@@ -292,13 +293,12 @@
   overflow: hidden;
 }
 .product .card .bg-img {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.27%, #000000 100%);
   position: absolute;
   top: 0;
   left: 0;
   height: 238px !important;
   border-radius: 10px;
-  width: 400px !important;
+  width: 100% !important;
 }
 .product .card .bg-img .info {
   position: absolute;
@@ -319,4 +319,33 @@
   font-size: 25px;
   font-weight: 700;
   color: #1189F7;
+}
+
+.about .image-banner-about {
+  width: 560px !important;
+  /* height: 300px; */
+  padding: 113px 26px 43px 126px !important;
+}
+
+.testimonial {
+  background: #dbedff !important;
+  height: 496px;
+}
+.testimonial .card {
+  border: none;
+  background-color: #1189F7;
+  color: #FFFFFF;
+}
+.testimonial .card .rate i {
+  color: #EBEF17 !important;
+}
+.testimonial .testi-image {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.cta .image-banner-cta {
+  width: 560px !important;
+  /* height: 300px; */
+  padding: 0 26px 43px 126px !important;
 }/*# sourceMappingURL=main.css.map */
